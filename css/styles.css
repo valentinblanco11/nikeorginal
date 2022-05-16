@@ -1,0 +1,510 @@
+                    /* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                    /* Header */
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.829)  
+
+}
+
+
+header ul li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
+    position: relative;
+    left: 900px;
+
+}
+
+header ul span a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 900px;
+    transition: all 1s;
+}
+
+
+
+header ul span a:hover {
+    color: orange;
+}
+
+header ul span{
+    transition: all 1s;
+}
+
+header ul span:hover{
+    transform: scale(1.1);
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+header ul li a:hover{
+    color: orange;
+transform:scale(1.1);
+}
+
+header ul li{
+    transition: all 1s;
+}
+
+header ul li:hover{
+    transform: scale(1.1);
+}
+
+                    /* Footer */
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    
+}
+
+footer ul li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
+    position: relative;
+    left: 500px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+                        /* Inicio */
+
+.buscador{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.tituloInicio{
+    padding: 20px;
+    margin: 10px;
+}
+.parrafo1{
+    padding: 20px;
+    margin-left: 50px;
+}
+
+
+
+.imgPrincipal img{
+    width: 600px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.1);
+}
+
+.basquetnike{
+    transform: scale(1.5);
+    width: 100px;
+}
+
+.fondo{
+    padding: 30px;
+    margin: 10px;
+}
+
+.parrafo2{
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.contenedor1 {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.zapatilla1:hover img{
+    width: 300px;
+    transition: all 2s;
+    transform: scale(1.1);
+}
+
+.zapatilla2:hover img {
+width: 300px;
+transition: all 2s;
+transform: scale(1.1);
+}
+
+.zapatilla3:hover img{
+    width: 300px;
+    transition: all 2s;
+    transform: scale(1.1);
+}
+
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2"
+                         "b3 b4"
+                          "b5 b6";
+}
+
+.tiendaimagen1{
+    grid-area: b1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiendaimagen2{
+    grid-area: b2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tiendaimagen3{
+grid-area: b3;
+width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiendaimagen4{
+    grid-area: b4;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiendaimagen5{
+grid-area: b5;
+width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiendaimagen6{
+grid-area: b6;
+width: 100%;
+    justify-content: center;
+    align-items: center;    
+}
+
+                        /* Novedades */
+
+.imgNovedades{
+    padding: 50px;
+}
+
+.video{
+    position: relative;
+    left:290px;
+}
+
+.txt1{
+    padding:10px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 350px;
+    width: 900px;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
+
+                        /* Contacto */
+
+.imgContacto{
+    position: relative;
+    left: 450px;
+}
+
+.formulario{
+    padding: 20px;
+}
+
+.formulario form{
+    padding: 30px;
+    position: relative;
+    left: 400px;
+}
+
+.contenedorConfirmar{
+    padding: 30px;
+    position: relative;
+    left: 650px;
+}
+.contenedorConfirmar h2{
+    position: relative;
+    right: 50px;
+}
+.contenedorComentario{
+    padding: 50px;
+    position: relative;
+    left: 350px;
+}
+
+
+nav{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .fonde{
+        max-width: 100%;
+        width: 200px;
+    }
+
+    header{
+        width: 100%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.829)  
+        
+    }
+    
+    
+    header ul li{
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 6px;
+        position: relative;
+        left: 900px;
+        
+    }
+    
+    header ul span a {
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: 900px;
+    
+    }
+    header ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+                        /* Footer */
+    
+    
+    footer{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background-color: grey;
+    }
+    
+    footer ul li {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 6px;
+      
+        width: 100%;
+    }
+    
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+                            /* Inicio */
+    
+    .buscador{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tituloInicio{
+        padding: 20px;
+        margin: 10px;
+    }
+    .parrafo1{
+        padding: 20px;
+        margin-left: 50px;
+    }
+    
+    
+    
+    .imgPrincipal img{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fondo{
+        padding: 30px;
+        margin: 10px;
+    }
+    
+    .parrafo2{
+        padding: 20px;
+        margin-left: 50px;
+    }
+    
+    .contenedor1 {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contenedor2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "b1 b2"
+                             "b3 b4"
+                              "b5 b6";
+    }
+    
+    .tiendaimagen1{
+        grid-area: b1;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tiendaimagen2{
+        grid-area: b2;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .tiendaimagen3{
+    grid-area: b3;
+    width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tiendaimagen4{
+        grid-area: b4;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tiendaimagen5{
+    grid-area: b5;
+    width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tiendaimagen6{
+    grid-area: b6;
+    width: 100%;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+                            /* Novedades */
+    
+    .imgNovedades{
+        padding: 50px;
+    }
+    
+    .video{
+        position: relative;
+        left:290px;
+    }
+    
+    .txt1{
+        padding:10px;
+        line-height: 1.6;
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 350px;
+        width: 900px;
+        position: relative;
+        left: 100px;
+    }
+    
+    
+    
+    
+    
+                            /* Contacto */
+    
+    .imgContacto{
+        position: relative;
+        left: 450px;
+    }
+    
+    .formulario{
+        padding: 20px;
+    }
+    
+    .formulario form{
+        padding: 30px;
+        position: relative;
+        left: 400px;
+    }
+    
+    .contenedorConfirmar{
+        padding: 30px;
+        position: relative;
+        left: 650px;
+    }
+    .contenedorConfirmar h2{
+        position: relative;
+        right: 50px;
+    }
+    .contenedorComentario{
+        padding: 50px;
+        position: relative;
+        left: 350px;
+    
+    }
+
+}
